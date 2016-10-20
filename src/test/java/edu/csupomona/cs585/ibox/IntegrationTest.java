@@ -31,7 +31,7 @@ public class IntegrationTest {
 		filepath = "/Users/dubem/Desktop/testthis.txt";
 	
 	}
-	@Test
+//	@Test
 	public void addFileTest() throws IOException {
 		localFile = new File(filepath);
 		fileName = localFile.getName();
@@ -46,7 +46,7 @@ public class IntegrationTest {
 		System.out.println("File deleted");
 	}
 	
-	@Test
+//	@Test
 	public void deleteFiletest() throws IOException {
 		localFile = new File(filepath);
 		fileName = localFile.getName();
@@ -60,7 +60,7 @@ public class IntegrationTest {
 		Assert.assertFalse(localFile.exists());
 	}
 
-	@Test
+//	@Test
 	public void updateFiletest() throws IOException {
 		localFile = new File(filepath);
 		fileName = localFile.getName();
